@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeee;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    padding: 2%;
+  
+}
+p{
+    
+    position: fixed;
+    top: 50%;
+ left: 50%;
+}
+form{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 2%;
+    outline-style: inherit;
+}
+.lad{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+    padding:4% 0.99%;
+}
+#firstname,#lastname,#email,#num{
+    width: 100%;
+}
+.inputfirstname,.inputlastname,.inputemailname,.inputnumber{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.inputname,.mail{
+    display: flex;
+width: 100%;
+padding: 3% 0%;
+}
+.meds{
+    text-align: center;
+}
+#date{
+width: 60%;
+}
+#Request{
+    height: 15vh;
+    font-size: 90%;
+    
+}
+.submit{
+    background-color: blue;
+    color: white;
+    font-size: 100%;
+}

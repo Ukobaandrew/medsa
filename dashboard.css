@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    
+    background-color: #eeee;
+    
+}
+.container{
+    display: flex;
+    
+   
+    
+}
+.sidebar .navbars > li > a.active,
+.sidebar .navbars > li>  a.active:hover {
+    background: blueviolet;
+    color: rgb(221, 219, 219);
+    text-align: center;
+    padding: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.sidebar .navbars > li > a:hover {
+    background: gainsboro;
+}
+.sidebar .icon{
+    min-width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .navbars a{
+    display: flex;
+    align-items: center;
+    font-size: 90%;
+    color: rgb(119, 117, 117);
+    padding: 12% 16% 12% 0%;
+    transition: all .3s ease;
+    border-radius: 10px;
+    gap: 0.5rem;
+    /* line-height: 35px; */
+   
+}
+
+
+li  {
+    padding: 1%;
+   
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    
+    padding: 2%;
+    position: relative;
+    width: calc(100% - 260px);
+    left: 0%;
+    
+}
+.img{
+    width: 50px;
+    height: 50px ;
+    border-radius: 50%;
+}
+.dock{
+    width: 200px;
+    height: 200px;
+    top: 5%;
+    position: absolute;
+    left: 40%;
+}
+.main-content{
+    display: flex;
+    
+}
+.sidebar .brand{
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    font-weight: 700;
+    padding-top: 3.5%;
+    z-index: 100;
+    color: blueviolet;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+.cards{
+    background-color: #ffff;
+    padding: 4%;
+    margin: 1%;
+    border-radius: 5%;
+}
+.class{
+    padding-top: 10%;
+}
+.vitals{
+    padding: 5% 2%;
+}
+.client-profile{
+    display: flex;
+}
+.intro{
+    /* display: flex; */
+   
+}
+.appointment-info{
+    padding:5% 2%;
+}
+.Appointments{
+padding: 5% 2%;
+}
+thead{
+padding: 20%;
+    background-color: #ffff;
+}
+tbody{
+    background-color: #ddd;
+}
+.content-table th,
+.content-table td{
+    padding: 1vh 2vw;
+
+}
+.sum{
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+
+.staff{
+    display: flex;
+}
+.help{
+    background-color: blueviolet;
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    top: 125%;
+    left: auto;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 16px;
+    color: #fff;
+}
+.helppics img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #fff 5px solid;
+    border-color: 20px solid white;
+    position: absolute;
+    bottom: 87%;
+    left: 32%;
+}
+
+
+ li{
+    padding: 10%;
+} 
+
+.content1{
+    padding: 0% ;
+} 
+
+
+body{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+#sidebar{
+    position: fixed;
+    width: 19%;
+    background: white;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+#sidebar::-webkit-scrollbar{
+    display: none;
+}
+#sidebar .hide{
+    max-width: 60px;
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+#sidebar .brand{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    color: rgb(102, 102, 252);
+    
+}
+#sidebar .hide .brand{
+
+}
+#sidebar .icon{
+    min-width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sidebar .side-menu {
+    margin: 36px 0;
+    padding: 0 20px;
+}
+#sidebar .side-menu a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(119, 117, 117);
+    padding: 6% 8% 6% 0%;
+    transition: all .3s ease;
+    border-radius: 10px;
+    gap: 0.5rem;
+    line-height: 4vh;
+   
+}
+#sidebar .side-menu > li > a:hover {
+    background: gainsboro;
+}
+#sidebar .side-menu > li > a.active,
+#sidebar .side-menu > li>  a.active:hover {
+    background: rgb(89, 89, 245);
+    color: rgb(221, 219, 219);
+}
+.help{
+    background-color: rgb(102, 102, 252);
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    top: 80%;
+    left: 20%;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 16px;
+    color: #fff;
+}
+.helppics img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #fff 5px solid;
+    border-color: 20px solid white;
+    position: absolute;
+    bottom: 87%;
+    left: 32%;
+}
+
+
+#content{
+    position: relative;
+    width: calc(100% - 260px);
+    left: 260px;
+}
+nav{
+    background: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+nav .toggle-sidebar{
+    font-size: 18px;
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+nav form{
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right{
+    width: auto;
+}
+
+nav .form-group, input{
+    width: 50%;
+    background: rgb(222, 219, 219);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 7px 17px 7px 7px;
+    position: relative;
+
+}
+nav .form-group .icon{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
+
+
+
+
+main {
+    width: 90%;
+    padding: 30px;
+}
+ .title {
+    font-size: 20PX;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.link{
+    display: flex;
+    grid-gap: 6px;
+}
+.link li,
+.link li a{
+    font-size: 14px;
+}
+.link li a{
+    color: rgb(102, 102, 252);
+}
+.link li a.active,
+.link li.divider{
+    color: darkgray;
+    pointer-events: none;
+}
+.reference {
+    margin-top: 36px;
+}
+.reference .card1{
+    padding: 36px;
+    border-radius: 20px;
+    background: rgb(74, 74, 214);
+    box-shadow: rgb(92, 91, 91);
+}
+ .card1 .head1 h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+.card1 .head1 p{
+    margin-top: 1.5%;
+    font-size: 15px;
+    color: rgb(214, 213, 213);
+}
+ h3{
+    color: rgb(71, 71, 71);
+    margin-top: 20px;
+    font-weight: 500;
+}
+.info-data {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 1%;
+    flex-wrap: wrap;
+}
+.info-data .card{
+
+    padding: 30px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 05);
+}
+.card .head {
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.card .head h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.card .head p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card .head p span{
+    color: gray;
+    font-size: 10px;
+}
+
+#calendar{
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}

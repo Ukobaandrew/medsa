@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.topbar{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    align-items: center;   
+    width: 100%;
+    height: 15vh;
+    gap: 17vw;
+}
+.topbar .logo img{
+    height: 10vh;
+    width: 100%;
+    gap: 2vw;
+}
+.topbar .nav { 
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.topbar .nav nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7vw;
+}
+.topbar .nav nav ul li{
+    list-style: none;
+}
+.topbar .nav nav ul li a{
+    text-decoration: none;
+    color: rgb(226, 112, 5);
+    font-size: 3vh;
+}
+.topbar .signin{
+    display: flex;
+    align-items: center;
+}
+.topbar .signin a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder; 
+}
+.topbar .signin button{
+    width: 7vw;
+    background-color: rgb(226, 112, 5);
+    border: 1px solid;
+    border-radius: 5px ;
+    padding: 5%;
+}
+.body2{
+    background-image: url(img/pexels-karolina-grabowska-4386464.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 8%;
+}
+.body2 h1{
+    color: rgb(255, 94, 0);
+    font-size: 8vh;
+}
+.body2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 4vh;
+   
+}
+.body2 h3{
+    color: rgb(61, 59, 59);
+    font-size: 3vh;
+}
+.body2 .plist{
+    width: 30%;
+}
+.body2 .list{
+    display: flex;
+    width: 100%;
+}
+.body2 .list .icon i{
+    font-size: 15vh;
+    color: rgb(255, 94, 0);
+}
+.body2 .list h2{
+    color: black;
+    font-size: 4vh;
+}
+.body2 .list h4{
+    transform: translateY(-15%);
+}
